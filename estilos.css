@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(233, 254, 255);
+}
+.cocina {
+    background-color: lightgrey;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 100px;
+}
+.cocina__olla {
+    border-radius: 10px;
+    background-color: rgb(255, 203, 255);
+    margin-top: 10px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+}
+.cocina__vaso {
+    border-radius: 10px;
+    background-color: rgb(255, 203, 255);
+    margin-top: 10px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+}
+.cocina__plato{
+    border-radius: 10px;
+    background-color: rgb(255, 203, 255);
+    margin-top: 10px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+}
+.habitacion {
+    background-color: rgb(210, 239, 249);
+    padding: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin: 100px;
+}
+.habitacion__cama {
+    background-color: rgb(174, 241, 174);
+    margin-top: 10px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+.habitacion__lampara{
+    background-color: rgb(174, 241, 174);
+    margin-top: 10px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+.habitacion__armario--big {
+    font-size: 1.5em;
+}
+.habitacion__armario--rojo {
+    color: red;
+    text-align: center;
+    font-style: italic;
+    
+}
+.sala {
+    background-color: rgb(249, 199, 181);
+    padding: 10px;
+    border: 2px solid black;
+    margin-top: 20px;   
+    border-radius: 10px;
+    margin: 100px;
+}
+.sala__sofa {
+    background-color: rgb(255, 255, 202);
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
+    font-style: italic;
+    text-align: center;
+}
+.sala__sofa--verde{
+    background-color: rgb(200, 244, 200);
+}
+.sala__television {
+    background-color: rgb(255, 255, 202);
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
+    font-style: italic;
+    text-align: center;
+}
+.sala__mesa {
+    background-color: rgb(255, 255, 202);
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
+    font-style: italic;
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    text-align: center;
+
+}
