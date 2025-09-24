@@ -7,6 +7,10 @@ body {
     border: 2px solid black;
     border-radius: 10px;
     margin: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: wrap;
+    justify-content: space-around;
 }
 .cocina__olla {
     border-radius: 10px;
