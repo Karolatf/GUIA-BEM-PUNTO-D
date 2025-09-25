@@ -9,8 +9,10 @@ body {
     margin: 100px;
     display: flex;
     align-items: center;
-    flex-direction: wrap;
+    flex-direction:row-reverse;
     justify-content: space-around;
+    font-size: 25px;
+    padding-top: 20px;
 }
 .cocina__olla {
     border-radius: 10px;
@@ -20,6 +22,24 @@ body {
     font-style: italic;
     text-align: center;
     padding: 5px;
+    display: flex;
+    flex-shrink: 3;
+    flex-basis: auto;
+    align-self: baseline;
+}
+
+.cocina__olla--red{
+    display: flex;
+    border-radius: 20px;
+    background-color: rgb(255, 0, 0);
+    margin-top: 10px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+    flex-shrink: 3;
+    flex-basis: auto;
+    align-self: center;
 }
 .cocina__vaso {
     border-radius: 10px;
@@ -29,6 +49,10 @@ body {
     font-style: italic;
     text-align: center;
     padding: 5px;
+    display: flex;
+    flex-shrink: 3;
+    flex-basis: auto;
+    align-self: baseline;
 }
 .cocina__plato{
     border-radius: 10px;
@@ -38,6 +62,10 @@ body {
     font-style: italic;
     text-align: center;
     padding: 5px;
+    display: flex;
+    flex-basis: content;
+    flex-shrink: 2;
+    align-self: baseline;
 }
 .habitacion {
     background-color: rgb(210, 239, 249);
